@@ -1,0 +1,14 @@
+POST  http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pYWhvbiIsImlkIjoiNWY0M2IxYjBkZGQ0OGUxNzIwMzcwN2RhIiwiaWF0IjoxNTk4MjcyMTg1fQ.bZWM58hkp4BwhdtQARHyRra3qlTvE7cnDT_o8vJvaBk
+
+{
+    "title": "Sietämisen olematon keveys",
+    //"title": "Olemisen sietämätön keveys",
+    "author": "Moka Ahonen",
+    "url": "www.oogle.com",
+    //"likes": "1",
+    "userId": "5f43b1b0ddd48e17203707da"
+   
+    
+}
